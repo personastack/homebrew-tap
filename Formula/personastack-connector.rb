@@ -1,26 +1,26 @@
 class PersonastackConnector < Formula
   desc "Local Connector for PersonaStack external personas"
   homepage "https://personastack.ai"
-  version "0.5.1"
+  version "0.5.6"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.1/personastack-connector_0.5.1_darwin_arm64.tar.gz"
-      sha256 "51e736e3712f0a9c76de9546a1fa03c337af5fb3b22d7de461814962932adde3"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.6/personastack-connector_0.5.6_darwin_arm64.tar.gz"
+      sha256 "746ac357fdf66a31ad49b9c7b570a13d322294f505751d9eda564df0dca48821"
     else
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.1/personastack-connector_0.5.1_darwin_amd64.tar.gz"
-      sha256 "8657f9702e067c629d94db755330bb2270ce35ae125d34c9c83a47e0b31bbad1"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.6/personastack-connector_0.5.6_darwin_amd64.tar.gz"
+      sha256 "d9d772db06be998df61ce36732947d905d89a51ad47f4bc4d582f5b998ebaf6a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.1/personastack-connector_0.5.1_linux_arm64.tar.gz"
-      sha256 "3926f4ea60f0df088a7f3a5bc7df348e073d5082085ec7479554fa0f7c8a1d40"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.6/personastack-connector_0.5.6_linux_arm64.tar.gz"
+      sha256 "d0c9f0f30ac0ba2bf14f5d312a802dc91bf0f59d3cae129cdd0b4f4f9928dada"
     else
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.1/personastack-connector_0.5.1_linux_amd64.tar.gz"
-      sha256 "16bd3f2d2b04a0d2dbf00d0d3d72f52c133c57d42367ad3314f62e232f92f44c"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.6/personastack-connector_0.5.6_linux_amd64.tar.gz"
+      sha256 "ad153c5a963502bc6dc0ea2462b5344ef73b40c247b04e72b569ee3e3565f899"
     end
   end
 
