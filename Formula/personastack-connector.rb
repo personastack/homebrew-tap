@@ -1,26 +1,26 @@
 class PersonastackConnector < Formula
   desc "Local Connector for PersonaStack external personas"
   homepage "https://personastack.ai"
-  version "0.5.8"
+  version "0.5.10"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.8/personastack-connector_0.5.8_darwin_arm64.tar.gz"
-      sha256 "b467bc0a584422cec63b856f9fef4d7a209a973df6dd41aca847c2572b32a236"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.10/personastack-connector_0.5.10_darwin_arm64.tar.gz"
+      sha256 "5891ab365e9140bdee946bfd1c99d75483ae54c5095a1000484b0a93289599d3"
     else
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.8/personastack-connector_0.5.8_darwin_amd64.tar.gz"
-      sha256 "ccb2c87211189e4301f03cb84710975e34f371dfd7077de10e142ad36e97498e"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.10/personastack-connector_0.5.10_darwin_amd64.tar.gz"
+      sha256 "9a46e95f07ffe109c2c1411711c8f7013fa1efda9232d2384e4da79b0a77f832"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.8/personastack-connector_0.5.8_linux_arm64.tar.gz"
-      sha256 "fda662e9afd89ada2d4245cdaf9a142b82e78a716ab6f9afccaba1633d57636e"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.10/personastack-connector_0.5.10_linux_arm64.tar.gz"
+      sha256 "fc74bef5638b178a819b02feafd3dc5b4dddf65fd312c210029a935dde06c602"
     else
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.8/personastack-connector_0.5.8_linux_amd64.tar.gz"
-      sha256 "6eef806dda41a558548640f98042510370b20d9863813f826957cb4ec1ef6666"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.10/personastack-connector_0.5.10_linux_amd64.tar.gz"
+      sha256 "a2f13406e36824254806e580042cf99de26fbdfc3863b8ef0284cf344194ca37"
     end
   end
 
