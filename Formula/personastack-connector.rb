@@ -1,26 +1,26 @@
 class PersonastackConnector < Formula
   desc "Local Connector for PersonaStack external personas"
   homepage "https://personastack.ai"
-  version "0.5.11"
+  version "0.5.12"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.11/personastack-connector_0.5.11_darwin_arm64.tar.gz"
-      sha256 "857fafeb650a0fc230d431036a68f9c2435c5f4ca10d9fa05af6ebdd1b4ea033"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.12/personastack-connector_0.5.12_darwin_arm64.tar.gz"
+      sha256 "f2e55919d9d9a724c38b6c32cb800e59266aecc9a1bd97cc57d3c57416ed49b4"
     else
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.11/personastack-connector_0.5.11_darwin_amd64.tar.gz"
-      sha256 "e4938401dd4116e22bfdb14d7a5dc8a1dba57d817fd0ab8e1324f6669eaf1553"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.12/personastack-connector_0.5.12_darwin_amd64.tar.gz"
+      sha256 "96930928f1c511fa15d76957dde82eaeb7e8b9452523520d8f5cf4a5f888ea6d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.11/personastack-connector_0.5.11_linux_arm64.tar.gz"
-      sha256 "8e4c71550b112a8ce232dd5d38d17f4aeefe7d79bf17b48ec60423ec99f368ac"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.12/personastack-connector_0.5.12_linux_arm64.tar.gz"
+      sha256 "06ef3066bc334400e38cf28360efac3592ee9862760a29f0f89c0eea430017d9"
     else
-      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.11/personastack-connector_0.5.11_linux_amd64.tar.gz"
-      sha256 "398440106b0f7af7ecbc67c397705a57f6c4e1e43546836b6aef34978415d523"
+      url "https://github.com/personastack/personastack-connector/releases/download/v0.5.12/personastack-connector_0.5.12_linux_amd64.tar.gz"
+      sha256 "8ff4d1a185444b187e121cdf528d5e5b43089ecb51e0df5c5bbb6dcefbd30915"
     end
   end
 
