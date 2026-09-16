@@ -14,4 +14,4 @@ Install PersonaStack for macOS:
 brew install --cask personastack/tap/personastack
 ```
 
-The desktop release workflow publishes its universal macOS disk image and cask together.
+The desktop release workflow publishes its universal macOS disk image and cask together in a versioned tap tag.
