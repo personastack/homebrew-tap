@@ -7,7 +7,7 @@ cask "personastack" do
   desc "Native macOS client for PersonaStack"
   homepage "https://my.personastack.ai"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "PersonaStack.app"
 
