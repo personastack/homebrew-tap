@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>PersonaStack</title>
+        <item>
+            <title>0.1.50</title>
+            <pubDate>Wed, 30 Sep 2026 04:16:53 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.1.50</sparkle:version>
+            <sparkle:shortVersionString>0.1.50</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[**Full Changelog**: https://github.com/personastack/macos-desktop/compare/v0.1.49...v0.1.50
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.50/Downloads/PersonaStack-0.1.50-unsigned.dmg" length="5115258" type="application/octet-stream" sparkle:edSignature="EsPKdQ6GZQVd/ouZUCV3CT6ztWIcxaavlLQn+OYSnHq8SIel0dVuZI2QVzM9L233MJGWXmr6ABWjz067DvTDDw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: WQSyvNMFuhB2akG7NyDT3H6XvWSVs5OKi6v+oo5hN5uC0FTr0joPpoGNbCFCZkDUiu4EVsaqiRmijt27i9ysCg==
+length: 1309
+-->
