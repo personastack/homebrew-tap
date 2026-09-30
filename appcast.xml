@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.1.59</title>
+            <pubDate>Wed, 30 Sep 2026 22:30:20 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.1.59</sparkle:version>
+            <sparkle:shortVersionString>0.1.59</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.1.59
+
+Release date: 2026-09-30
+
+## Fixed
+
+- Fixed the app's signing identity so macOS can identify PersonaStack consistently across updates.
+- Added recovery instructions when Settings shows an enabled permission that macOS is not granting to the current app.
+
+## Changed
+
+- This release uses a persistent self-signed certificate. It is not Developer ID signed or notarized.
+- Reapprove permissions once after updating from an unsigned build. For Accessibility, remove the old PersonaStack entry and add PersonaStack.app from Applications. For Screen Recording and Microphone, turn PersonaStack off and on in Settings. Relaunch if macOS requests it, then retry the Setup buttons.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.59/Downloads/PersonaStack-0.1.59-selfsigned.dmg" length="8786094" type="application/octet-stream" sparkle:edSignature="39OQ/tom/zrGkzCKGh1/7Y0VaDogyr9UNvLc6Oyc9SEj+JBsLrOuyAJWOnmFuQaLsF8MT1VKpzGK6Ayny5KwCA=="/>
+        </item>
+        <item>
             <title>0.1.58</title>
             <pubDate>Wed, 30 Sep 2026 21:18:58 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -128,6 +152,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: p4TxWGcGSnHpqT3l6AGyOd3CHw9C827mWKQkqOHns2r6QHpFNnvfmn5jBcHrAC7XGBhfV4vZ7s1vOlCgyBBeCA==
-length: 8994
+edSignature: TWhn+ixNpnzC2Zig24beLdtwjLN53Yjk9Va5lKRvNoM8OIedoxMHHa051Ugr/QwAiqAnA6YmhqrVJZIpfuwLCg==
+length: 10467
 -->
