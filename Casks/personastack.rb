@@ -1,6 +1,6 @@
 cask "personastack" do
-  version "0.1.48"
-  sha256 "89435b19eedaa13099c911fee8e4939eb0d5217e112b4502bb638e00d4c5325f"
+  version "0.1.50"
+  sha256 "89c8912f426127f3367014f9ce5c6f9631ed2ffbcfb3eb98243299e69a26d490"
 
   url "https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v#{version}/Downloads/PersonaStack-#{version}-unsigned.dmg"
   name "PersonaStack"
@@ -10,6 +10,7 @@ cask "personastack" do
   depends_on macos: :sonoma
 
   app "PersonaStack.app"
+  auto_updates true
 
   caveats <<~EOS
     PersonaStack is unsigned. macOS may require a Gatekeeper override the first time you open it.
