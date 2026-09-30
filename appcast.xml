@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.1.58</title>
+            <pubDate>Wed, 30 Sep 2026 21:18:58 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.1.58</sparkle:version>
+            <sparkle:shortVersionString>0.1.58</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.1.58
+
+Release date: 2026-09-30
+
+## Fixed
+
+- Fixed Desktop Control permission checks rejecting the macOS service after Accessibility or Screen Recording access was granted.
+- Reduced the menu bar icon size by 10% to better match nearby icons.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.58/Downloads/PersonaStack-0.1.58-unsigned.dmg" length="8751165" type="application/octet-stream" sparkle:edSignature="HpDD3HO3POBFdkqzcJDN+EZyPo8+EI5tS9kyiiKBgn5Htz4ZlsGfOQVOqEWzDt23rAT6pwm9IEBFCg1xfNr2AQ=="/>
+        </item>
+        <item>
             <title>0.1.57</title>
             <pubDate>Wed, 30 Sep 2026 19:33:44 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -109,6 +128,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: qUuukDTMDuPhoVrBeKi032PUY1KLEMGsy65wafAix1GW/LseUi5MZM6dFM2pfj1Z/W7XwTsC+Ed+xWtWb12JAQ==
-length: 7961
+edSignature: p4TxWGcGSnHpqT3l6AGyOd3CHw9C827mWKQkqOHns2r6QHpFNnvfmn5jBcHrAC7XGBhfV4vZ7s1vOlCgyBBeCA==
+length: 8994
 -->
