@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.1.57</title>
+            <pubDate>Wed, 30 Sep 2026 19:33:44 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.1.57</sparkle:version>
+            <sparkle:shortVersionString>0.1.57</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.1.57
+
+## Improvements
+
+- Run personas in a dedicated local chat window using Apple containers. Local Run requires Apple silicon, macOS 26 or later, and the Apple container runtime.
+- Check access to mounted external and network volumes from the permission checklist. Choose a volume to verify access.
+- Check protected folder access from the permission checklist with guidance for opening macOS privacy settings.
+
+## Fixes
+
+- Verify microphone access through the same recorder used for voice attachments.
+- Preserve completed permission-check results while the checklist refreshes.
+- Show readable release notes inside the update window instead of only a GitHub comparison link.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.57/Downloads/PersonaStack-0.1.57-unsigned.dmg" length="8750949" type="application/octet-stream" sparkle:edSignature="PzZu/gR87lpeKefhF0thf4LLmGTGWtPrPdHj8R9rzcFnue3j6BBwLRYPLvqiKmK9PS7TbRsqcSoL8nBulZ+rAA=="/>
+        </item>
+        <item>
             <title>0.1.56</title>
             <pubDate>Wed, 30 Sep 2026 08:56:06 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -85,6 +109,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: xk0EjAveius3IeRK+PqnmbASPz+EDSIuRyN0HOCQME2gWyvru82X5kcdYEHIF04/FksgIgsDoTpM26RyubhLBQ==
-length: 6491
+edSignature: qUuukDTMDuPhoVrBeKi032PUY1KLEMGsy65wafAix1GW/LseUi5MZM6dFM2pfj1Z/W7XwTsC+Ed+xWtWb12JAQ==
+length: 7961
 -->
