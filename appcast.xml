@@ -6,6 +6,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.1.54</title>
+            <pubDate>Wed, 30 Sep 2026 05:40:13 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.1.54</sparkle:version>
+            <sparkle:shortVersionString>0.1.54</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[**Full Changelog**: https://github.com/personastack/macos-desktop/compare/v0.1.53...v0.1.54
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.54/Downloads/PersonaStack-0.1.54-unsigned.dmg" length="7661678" type="application/octet-stream" sparkle:edSignature="j9ZrsYwMzI2xJQbfksVgy3KMeIUthjlEWiiMTdKjwpn4E7jhIrG0pQKdzkvAhpeitlh6A5unS+NBphw2VJEwAg=="/>
+        </item>
+        <item>
             <title>0.1.53</title>
             <pubDate>Wed, 30 Sep 2026 05:20:14 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -52,6 +63,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: sbj1VwVPat2NJMhhxIpBYJyQNRmCGusY8ob7jcCQBq4E5CbbeCilor35VXAF1ayLomRmvHL/WbxJqEZ1q8/xDg==
-length: 3896
+edSignature: Zh9n9jfOz+6a8Z63qh2q/sbj90T6hVZ4VTMbI/ok7UryPEiciXKQb/cRievn3AvsWIjOP8on38E8hL2VBs88Bg==
+length: 4761
 -->
