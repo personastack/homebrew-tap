@@ -1,8 +1,21 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>PersonaStack</title>
+        <item>
+            <title>0.1.51</title>
+            <pubDate>Wed, 30 Sep 2026 04:53:11 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.1.51</sparkle:version>
+            <sparkle:shortVersionString>0.1.51</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[**Full Changelog**: https://github.com/personastack/macos-desktop/compare/v0.1.50...v0.1.51
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.51/Downloads/PersonaStack-0.1.51-unsigned.dmg" length="7677589" type="application/octet-stream" sparkle:edSignature="i+4HnaFoVZqh3fOGXanB4+OBvk8MuD5Th+2oR6L5JsrmnYQqJheiGdGChIF3x1OvDDtRgYc1IZezFqYIjjPoAw=="/>
+        </item>
         <item>
             <title>0.1.50</title>
             <pubDate>Wed, 30 Sep 2026 04:16:53 +0000</pubDate>
@@ -12,10 +25,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[**Full Changelog**: https://github.com/personastack/macos-desktop/compare/v0.1.49...v0.1.50
 ]]></description>
-            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.50/Downloads/PersonaStack-0.1.50-unsigned.dmg" length="5115258" type="application/octet-stream" sparkle:edSignature="EsPKdQ6GZQVd/ouZUCV3CT6ztWIcxaavlLQn+OYSnHq8SIel0dVuZI2QVzM9L233MJGWXmr6ABWjz067DvTDDw=="></enclosure>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.50/Downloads/PersonaStack-0.1.50-unsigned.dmg" length="5115258" type="application/octet-stream" sparkle:edSignature="EsPKdQ6GZQVd/ouZUCV3CT6ztWIcxaavlLQn+OYSnHq8SIel0dVuZI2QVzM9L233MJGWXmr6ABWjz067DvTDDw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: WQSyvNMFuhB2akG7NyDT3H6XvWSVs5OKi6v+oo5hN5uC0FTr0joPpoGNbCFCZkDUiu4EVsaqiRmijt27i9ysCg==
-length: 1309
+</rss>
+<!-- sparkle-signatures:
+edSignature: /Vn52m8bzouLb/NRyGNzW/ewfv7FuZ3CZUwOcSa/6R7P4Wtxq6OvSr0a/6WpiKD6x23412ZA24+uShF3pWxqBg==
+length: 2166
 -->
