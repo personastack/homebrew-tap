@@ -6,6 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.2.2</title>
+            <pubDate>Thu, 01 Oct 2026 04:29:54 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.2.2</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.2.2
+
+Release date: 2026-09-30
+
+## Fixed
+
+- Finish Setup now becomes available after Accessibility is verified. The permission is labeled (Required).
+- Screen Capture, Microphone, Full Disk Access and Local Network are optional for setup. Screen Capture is still needed for screenshot-based control.
+- Fixed hidden screen-capture checks blocking Accessibility-only desktop control.
+- Fixed optional permission checks interfering with setup completion or disabling working desktop control.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.2.2/Downloads/PersonaStack-0.2.2-selfsigned.dmg" length="8854099" type="application/octet-stream" sparkle:edSignature="ASBJZ0H4zoejr8gd7JgP/wc9hyItFF2Q6XwW2dobrgNkRLkdAmiyWA7y/pR+LC7QaZqsN+ezHWG5kfc/nlBXAQ=="/>
+        </item>
+        <item>
             <title>0.2.1</title>
             <pubDate>Thu, 01 Oct 2026 04:04:10 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -280,6 +301,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: RnwwjvI2Bsuuq6oQfQuKZK12PxsP//JL7MeRQSzcPKOqvKg8LEWt+lat3QPw4YprZKE3lYKVKMuHOQFq0foLAg==
-length: 18115
+edSignature: kZildMWOmF/xPW1a/+aNID7V1DCUy95xvTA4Nn73SGOGBu9Tg5IEAlCV9kv1ZY3M29hj1muNm0oVLdYAe0wcBw==
+length: 19391
 -->
