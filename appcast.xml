@@ -6,6 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.1.61</title>
+            <pubDate>Thu, 01 Oct 2026 00:27:09 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.1.61</sparkle:version>
+            <sparkle:shortVersionString>0.1.61</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.1.61
+
+Release date: 2026-09-30
+
+## Fixed
+
+- Accessibility setup no longer rejects valid replies from the Desktop Control service.
+- Accessibility verification correctly identifies its test controls and allows window and input updates to finish.
+- Accessibility setup opens macOS Settings before running desktop checks when approval is missing.
+- Accessibility failures now name the step that failed instead of reporting a generic screen-capture error.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.61/Downloads/PersonaStack-0.1.61-selfsigned.dmg" length="8832842" type="application/octet-stream" sparkle:edSignature="yzhODr4o1CP9ZlBQ9hcAdZ6n1PzHW+rX8nuvMQu1PJB6wxGXVcDh9h4hd5KnDwJ5UNQfT/GcloY618TouyTqBA=="/>
+        </item>
+        <item>
             <title>0.1.60</title>
             <pubDate>Wed, 30 Sep 2026 23:39:03 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -174,6 +195,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: x1xz172SMsrangNT2eXccdThyUhpiyeoeoiQHbrUPA2eKyeTubH1cSHIMRRgxigER+zTZqFAsIUD5zhwLEa6Dg==
-length: 11896
+edSignature: 6XL7S3BeBnTGO9a7NofcVYD4mgiZFbFUGQ1Zf5Ycw306UrH7J2lZu56jWSVoN7N5oiBNKoSMyPEQoTQ0HmRgAQ==
+length: 13141
 -->
