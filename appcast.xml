@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.1.62</title>
+            <pubDate>Thu, 01 Oct 2026 01:05:49 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.1.62</sparkle:version>
+            <sparkle:shortVersionString>0.1.62</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.1.62
+
+Release date: 2026-09-30
+
+## Fixed
+
+- Desktop Control setup rechecks desktop availability before marking setup complete.
+- Finishing an older setup attempt no longer closes a newer permissions checklist.
+- Returning from the lock screen during permission setup no longer starts an enrolled Desktop Control session.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.62/Downloads/PersonaStack-0.1.62-selfsigned.dmg" length="8836749" type="application/octet-stream" sparkle:edSignature="dafgoDXV7gp9lbWFjXESr2iBDchwNCnO7NCxUlF8FRBqZQHgrU/2PJXxOXAm4Zpfpu800FIr0Vb3GPl/bKRIAg=="/>
+        </item>
+        <item>
             <title>0.1.61</title>
             <pubDate>Thu, 01 Oct 2026 00:27:09 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -195,6 +215,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 6XL7S3BeBnTGO9a7NofcVYD4mgiZFbFUGQ1Zf5Ycw306UrH7J2lZu56jWSVoN7N5oiBNKoSMyPEQoTQ0HmRgAQ==
-length: 13141
+edSignature: XOqzEoJvhxa6zaBKrx7v+MTFzM2pdb0VmZMC5oCjCnXiCZr5WWESaqH7Ez1joY+YZNNPQqYHzlJ6MXttCF6QBg==
+length: 14255
 -->
