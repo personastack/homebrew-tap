@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.3.3</title>
+            <pubDate>Thu, 01 Oct 2026 10:01:49 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.3.3</sparkle:version>
+            <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.3.3
+
+Release date: 2026-10-01
+
+## Fixed
+
+- Opening Desktop Control and checking setup status no longer trigger Keychain password prompts.
+- Retry Remote Control in the menu bar can restore access to an existing Desktop Control credential without replacing the installation.
+- Pending Keychain authorization no longer stalls background connection checks.
+- Delayed startup and status checks no longer leave an old Keychain error after access is restored.
+- Older saved credentials use the most recent matching server entry during migration.
+
+If Desktop Control needs Keychain access, choose **Retry Remote Control** from the PersonaStack menu. If macOS asks for authorization, choose **Always Allow** to remember this app. Older credentials can require this once after updating.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.3.3/Downloads/PersonaStack-0.3.3-selfsigned.dmg" length="9024292" type="application/octet-stream" sparkle:edSignature="TI58gQtM/Rf+ZH4FpOjUorOJGz/cx3G3MDY1lqyNvNlTUHHVnq7aGJ19MJp1xl9gU5jGn6r6kCi1NlG32qCECw=="/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Thu, 01 Oct 2026 09:07:53 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -443,6 +467,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: j92BSA1tYzrCCPrSPa37JKQtdNjqLQ047pqKMiVl5O0nQC+sdiQLQTypgnICF+ttSCY5QqyxboLEoaICMa9VDg==
-length: 27894
+edSignature: nyRBdymdbILfa3GZUl0AXjFpFkrD1ElXGabpeu9NsyDf2g7AQT4A0lJ7nWxQs0XGOdVjS2ghK6GA9nMyu9rbCw==
+length: 29460
 -->
