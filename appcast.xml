@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.2.6</title>
+            <pubDate>Thu, 01 Oct 2026 06:47:05 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.2.6</sparkle:version>
+            <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.2.6
+
+Release date: 2026-09-30
+
+## Fixed
+
+- Reopening Desktop Control setup preserves valid Microphone verification without recording another audio test.
+- Previously verified Full Disk Access and Local Network checks refresh when setup reopens or regains focus. Failed checks keep their recovery instructions and wait for an explicit retry.
+- Closing setup or choosing Finish cancels pending checks and prevents old results from replacing newer permission status.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.2.6/Downloads/PersonaStack-0.2.6-selfsigned.dmg" length="8930608" type="application/octet-stream" sparkle:edSignature="Wk4D5lvT0bz9/QIIEcrBTYjPb89MIn7Lnkn9iOtVVJmH7H9q3EIpjx72uAdtGhhosyydCbk/5B7p9C8cr7RFBA=="/>
+        </item>
+        <item>
             <title>0.2.5</title>
             <pubDate>Thu, 01 Oct 2026 06:07:42 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -358,6 +378,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: d4O+2+hRiGZH1MPGtUtEtqI0XepK8QnWQgBFLL7DgNKcARXYO+e3TxCXrnvqQL7bEv0azTemeMCec5QYLUy7CQ==
-length: 22596
+edSignature: PreKik+kuurukVxZjGKr8w1E/0POQCcVhnuDukadlKiBfjR2/D/BLzazxMt07yiKE4SNqDbQNUUHVd7nOGFBCA==
+length: 23848
 -->
