@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.2.7</title>
+            <pubDate>Thu, 01 Oct 2026 08:04:49 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.2.7</sparkle:version>
+            <sparkle:shortVersionString>0.2.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.2.7
+
+Release date: 2026-10-01
+
+## Fixed
+
+- Opening Desktop Control setup automatically verifies current Accessibility, Screen Capture, Full Disk Access, Microphone and applicable Local Network access. Reopening setup runs fresh checks after an app restart or page change.
+- Permissions that need approval retain their Setup actions. Automatic checks preserve active recordings and remote tasks. Optional checks do not delay Finish after Accessibility is verified.
+- Microphone checks discard their short test recording. Protected-folder checks discard directory entries without reading file contents. Closing setup or choosing Finish cancels pending checks.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.2.7/Downloads/PersonaStack-0.2.7-selfsigned.dmg" length="8971160" type="application/octet-stream" sparkle:edSignature="q/RNMlON2SUDb5p46wEGzYDs99krwdTmx/y/hnOKmjAV1RjPo4VvZ8AVjzZ0x3ZNYzob0GqZbwKoLL9T2KmlCg=="/>
+        </item>
+        <item>
             <title>0.2.6</title>
             <pubDate>Thu, 01 Oct 2026 06:47:05 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -378,6 +398,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: PreKik+kuurukVxZjGKr8w1E/0POQCcVhnuDukadlKiBfjR2/D/BLzazxMt07yiKE4SNqDbQNUUHVd7nOGFBCA==
-length: 23848
+edSignature: ZOAQGU1iL97Pn+YE65Cx1h0oKUbPrBVG1eaWDJhAgYyEH2BPIXtgzYCbrH1T6yZCJqYIrl5Eu+Twk2FIXd+PDA==
+length: 25294
 -->
