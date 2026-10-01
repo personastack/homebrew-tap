@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.2.3</title>
+            <pubDate>Thu, 01 Oct 2026 05:03:13 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.2.3</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.2.3
+
+Release date: 2026-09-30
+
+## Fixed
+
+- Fixed a race where finishing setup during an optional screen check could stop the desktop service and make enrollment fail.
+- Cancelled permission setup now finishes its own startup and shutdown cleanup before enrollment starts the desktop service.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.2.3/Downloads/PersonaStack-0.2.3-selfsigned.dmg" length="8879412" type="application/octet-stream" sparkle:edSignature="DLcqLQkbr4BHRMK7tGp2WRB6SThXhBcOHruwAulR86AbLAaHWykVHFP2fufneITd+LMjucAZjgDAKACcCOzeDw=="/>
+        </item>
+        <item>
             <title>0.2.2</title>
             <pubDate>Thu, 01 Oct 2026 04:29:54 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -301,6 +320,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: kZildMWOmF/xPW1a/+aNID7V1DCUy95xvTA4Nn73SGOGBu9Tg5IEAlCV9kv1ZY3M29hj1muNm0oVLdYAe0wcBw==
-length: 19391
+edSignature: 9EZxVVMppTqNV9RRhBxR+l/vdAyHnwbFKeThlHGqA35o9ARr2384IY9GjUpdlbgQVa45lwUPUf1BpjGlbFpgAQ==
+length: 20471
 -->
