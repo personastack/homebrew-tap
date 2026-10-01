@@ -6,6 +6,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Thu, 01 Oct 2026 16:46:40 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.4.0</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.4.0
+
+Release date: 2026-10-01
+
+## Added
+
+- Added a Concern Notifications toggle in Settings. Concern banners are enabled by default and can be turned off without disabling update notifications.
+
+## Changed
+
+- Concern notifications stay available when the main window is closed, including when Desktop Control has not been set up.
+- Organized the menu bar into Desktop Control, Settings and Updates menus. Open PersonaStack is first, with connection status and the current retry, pause or resume action directly below it.
+- Combined update information into one menu entry with download progress and the next available action.
+
+## Fixed
+
+- Accessibility approval now uses the current macOS permission status. Checking or approving it no longer runs a desktop action or moves the cursor.
+- Accessibility approval remains separate from Screen Capture checks and desktop runtime availability.
+
+Concern notifications currently cover the workspace selected in the app. Notifications from all owned or administered workspaces require a separate website update.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.4.0/Downloads/PersonaStack-0.4.0-selfsigned.dmg" length="8936447" type="application/octet-stream" sparkle:edSignature="JtEs+mLvKgX3Nyb718H497bmshgFJlm3ZZSWtIVPxhlTQU3BUm8uN1S24YXDQk2PiFrk4BhAfWLoJKR+jlG4BQ=="/>
+        </item>
+        <item>
             <title>0.3.3</title>
             <pubDate>Thu, 01 Oct 2026 10:01:49 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -467,6 +498,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: nyRBdymdbILfa3GZUl0AXjFpFkrD1ElXGabpeu9NsyDf2g7AQT4A0lJ7nWxQs0XGOdVjS2ghK6GA9nMyu9rbCw==
-length: 29460
+edSignature: nBCsJcNK1ccA+NZZbyOjx3GwbO8Lxggb820ft51+f3l8mgjSs6gD+qXibtRUW6BlsoyOWPZ23liiYCnFdAvXAQ==
+length: 31301
 -->
