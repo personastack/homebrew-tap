@@ -6,6 +6,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Thu, 01 Oct 2026 03:40:34 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.2.0</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.2.0
+
+Release date: 2026-09-30
+
+## Changed
+
+- Simplified Desktop Control setup to Accessibility, Screen Capture, Full Disk Access and Microphone. Local Network appears only when needed for the selected services.
+- Combined Screen Recording and Direct Capture into one Screen Capture step. Full Disk Access replaces separate folder and volume approval steps.
+- Automatically set up notifications, launch at login, updates and sleep prevention when you open the setup window. Confirmed settings show a check. macOS may still ask for approval.
+
+## Fixed
+
+- Notifications and launch at login no longer block Desktop Control setup when approval is pending or unavailable.
+
+Full Disk Access still needs manual approval in System Settings. Its broad access remains unverified. Desktop Control remains unavailable while this Mac is locked.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.2.0/Downloads/PersonaStack-0.2.0-selfsigned.dmg" length="8850350" type="application/octet-stream" sparkle:edSignature="1GWHvI57Lkf4uF4xgIsf7G5rAujGIlYa2V4xfjFuuW4JH8zHUlLBB3ikOybV6NJrHleicvkklJKLmufErwHoBA=="/>
+        </item>
+        <item>
             <title>0.1.63</title>
             <pubDate>Thu, 01 Oct 2026 03:07:55 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -234,6 +260,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: VEDIZ7gYFkKeYUxrKfiCOmeQoc2XhEE2hwr0sdEAR1CLS28bk6VqXILKkm/7ck/0AoWUWMN46Hpl5YzkmtluAQ==
-length: 15328
+edSignature: p3VjFIZoWZiSsKvvDKP4z1Fx/a45hvqcAYgVWhD7hC9/5gl19JP1FnjAabNW4SkbF9feg1vNXuweVZct7LQlBA==
+length: 16947
 -->
