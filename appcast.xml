@@ -6,6 +6,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Thu, 01 Oct 2026 09:07:53 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.3.1</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.3.1
+
+Release date: 2026-10-01
+
+## Fixed
+
+- Opening Desktop Control and checking setup status no longer trigger Keychain password prompts.
+- Retry Remote Control in the menu bar can restore access to an existing Desktop Control credential without replacing the installation.
+- Older saved credentials use the most recent matching server entry during migration.
+
+If Desktop Control needs Keychain access, choose **Retry Remote Control** from the PersonaStack menu. If macOS asks for authorization, choose **Always Allow** to remember this app. Older credentials can require this once after updating.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.3.1/Downloads/PersonaStack-0.3.1-selfsigned.dmg" length="9008620" type="application/octet-stream" sparkle:edSignature="HGXT2AdzvNriN1GBxnMtR9bdJX/sT6Rh387al4jAlglYk6gIf/lF9DBHVHtTQckssWBe4r+VcVtkmf8AbosiDw=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Thu, 01 Oct 2026 08:38:21 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -421,6 +443,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: pRGpbQHxxQalxjj2AVA7w56m6zI8Dv6qCSNiegU8yKGgH0DWtG9se0sKxjL+mh8vja30Un7J8dxaCngOBKUeBA==
-length: 26508
+edSignature: j92BSA1tYzrCCPrSPa37JKQtdNjqLQ047pqKMiVl5O0nQC+sdiQLQTypgnICF+ttSCY5QqyxboLEoaICMa9VDg==
+length: 27894
 -->
