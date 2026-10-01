@@ -6,6 +6,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Thu, 01 Oct 2026 08:38:21 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.3.0</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.3.0
+
+Release date: 2026-10-01
+
+## Added
+
+- Run Local guides installation and startup of Apple's container runtime on Apple silicon with macOS 26 or later. Installation requires macOS approval.
+
+## Fixed
+
+- Accessibility and Screen Capture setup now request session confirmation when needed before reusing the desktop service.
+- Screen Capture setup reports when a remote task is using the desktop and keeps that task running.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.3.0/Downloads/PersonaStack-0.3.0-selfsigned.dmg" length="9007677" type="application/octet-stream" sparkle:edSignature="yZ+TYnoE7jA1E8k11Y0CHCv9F+JdmxBYqtFiFK0X1UEENNrTXs66HiLreZ2LP1noLw32lYrG0NnnwUpb7vHjAw=="/>
+        </item>
+        <item>
             <title>0.2.7</title>
             <pubDate>Thu, 01 Oct 2026 08:04:49 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -398,6 +421,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ZOAQGU1iL97Pn+YE65Cx1h0oKUbPrBVG1eaWDJhAgYyEH2BPIXtgzYCbrH1T6yZCJqYIrl5Eu+Twk2FIXd+PDA==
-length: 25294
+edSignature: pRGpbQHxxQalxjj2AVA7w56m6zI8Dv6qCSNiegU8yKGgH0DWtG9se0sKxjL+mh8vja30Un7J8dxaCngOBKUeBA==
+length: 26508
 -->
