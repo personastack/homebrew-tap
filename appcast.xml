@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.2.4</title>
+            <pubDate>Thu, 01 Oct 2026 05:48:40 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.2.4</sparkle:version>
+            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.2.4
+
+Release date: 2026-09-30
+
+## Fixed
+
+- Permission repair can reopen the setup window while keeping the existing Desktop Control integration connected.
+- Reopening permissions preserves any enrollment already in progress.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.2.4/Downloads/PersonaStack-0.2.4-selfsigned.dmg" length="8879377" type="application/octet-stream" sparkle:edSignature="Pakn/SS/0KtD+Idl9/TNIFhEAU0GhvFOrngjg+ETnsSHbb7keLVkZmUS6WP5S5kdA+UU+a6SoPQ26nrCASPvDw=="/>
+        </item>
+        <item>
             <title>0.2.3</title>
             <pubDate>Thu, 01 Oct 2026 05:03:13 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -320,6 +339,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 9EZxVVMppTqNV9RRhBxR+l/vdAyHnwbFKeThlHGqA35o9ARr2384IY9GjUpdlbgQVa45lwUPUf1BpjGlbFpgAQ==
-length: 20471
+edSignature: FED5G7lTo9LJKmOLXHH461LeNlH8ex7iUuzSKjAmYAhIaAGi/H6Y4Xs8FEFBvnBtpkERo6/mSSp76qT6tnTECA==
+length: 21484
 -->
