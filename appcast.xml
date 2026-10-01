@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.2.1</title>
+            <pubDate>Thu, 01 Oct 2026 04:04:10 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.2.1</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.2.1
+
+Release date: 2026-09-30
+
+## Fixed
+
+- Fixed Launch at Login setup skipping registration when macOS had not seen PersonaStack's login item before.
+- Replaced the incorrect missing-service and install-in-Applications message with registration recovery guidance.
+- Kept pending approval and unconfirmed registration visible until macOS confirms that launch at login is enabled.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.2.1/Downloads/PersonaStack-0.2.1-selfsigned.dmg" length="8852171" type="application/octet-stream" sparkle:edSignature="/ugUw2e6qclmW6xakZpWD4vh/RbllYUziDA6YmMR1/7B88XTDy4K5OulscAXbve2y3e9466hYl/9dKYKTeulDw=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Thu, 01 Oct 2026 03:40:34 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -260,6 +280,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: p3VjFIZoWZiSsKvvDKP4z1Fx/a45hvqcAYgVWhD7hC9/5gl19JP1FnjAabNW4SkbF9feg1vNXuweVZct7LQlBA==
-length: 16947
+edSignature: RnwwjvI2Bsuuq6oQfQuKZK12PxsP//JL7MeRQSzcPKOqvKg8LEWt+lat3QPw4YprZKE3lYKVKMuHOQFq0foLAg==
+length: 18115
 -->
