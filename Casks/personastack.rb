@@ -1,6 +1,6 @@
 cask "personastack" do
-  version "0.2.7"
-  sha256 "adfc8c1e07f628d2678578a53f088561dc53391c4ac88d48da671ccc348e2d17"
+  version "0.3.0"
+  sha256 "76b816ce883a44a09da037126d301fe18a8e4433cad2167d49450b7ece7c66c6"
 
   url "https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v#{version}/Downloads/PersonaStack-#{version}-selfsigned.dmg"
   name "PersonaStack"
