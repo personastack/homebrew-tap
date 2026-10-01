@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>PersonaStack</title>
         <item>
+            <title>0.1.63</title>
+            <pubDate>Thu, 01 Oct 2026 03:07:55 +0000</pubDate>
+            <link>https://personastack.ai</link>
+            <sparkle:version>0.1.63</sparkle:version>
+            <sparkle:shortVersionString>0.1.63</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# PersonaStack 0.1.63
+
+Release date: 2026-09-30
+
+## Fixed
+
+- Microphone setup waits for recording to start and produce audio instead of ending the test after 200 milliseconds.
+- Microphone setup distinguishes an empty recording from a page-script failure and shows the appropriate retry guidance.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.1.63/Downloads/PersonaStack-0.1.63-selfsigned.dmg" length="8865262" type="application/octet-stream" sparkle:edSignature="ZBqWAzXE1QsuXGnciD+tyh3bwnUANsmMwknpksIWy3zDJRIILhF8hsvZAPv8bGRg5KGKYzw/K7TyeS3TNP4cDw=="/>
+        </item>
+        <item>
             <title>0.1.62</title>
             <pubDate>Thu, 01 Oct 2026 01:05:49 +0000</pubDate>
             <link>https://personastack.ai</link>
@@ -215,6 +234,6 @@ Release date: 2026-09-30
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: XOqzEoJvhxa6zaBKrx7v+MTFzM2pdb0VmZMC5oCjCnXiCZr5WWESaqH7Ez1joY+YZNNPQqYHzlJ6MXttCF6QBg==
-length: 14255
+edSignature: VEDIZ7gYFkKeYUxrKfiCOmeQoc2XhEE2hwr0sdEAR1CLS28bk6VqXILKkm/7ck/0AoWUWMN46Hpl5YzkmtluAQ==
+length: 15328
 -->
