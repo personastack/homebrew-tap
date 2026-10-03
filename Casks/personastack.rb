@@ -1,19 +1,29 @@
 cask "personastack" do
-  version "0.4.0"
-  sha256 "9170687fbfccb9c84c872d68f8c95aae5b908c35495ff8ac000081bee6743215"
+  version "0.5.0"
+  sha256 "c37b7381baa894ae2873e67ede9d4674a9a0edc4055583d9b1c7fc6ee0c011fe"
 
-  url "https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v#{version}/Downloads/PersonaStack-#{version}-selfsigned.dmg"
+  url "https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v#{version}/Downloads/PersonaStack-#{version}-developerid.dmg"
   name "PersonaStack"
   desc "Native macOS client for PersonaStack"
   homepage "https://my.personastack.ai"
 
   depends_on macos: :sonoma
 
-  app "PersonaStack.app"
+  pkg "Install PersonaStack.pkg"
   auto_updates true
 
-  caveats <<~EOS
-    PersonaStack uses a persistent self-signed certificate. It is not Developer ID signed or notarized.
-    macOS may require a Gatekeeper override the first time you open it.
-  EOS
+  uninstall quit: "ai.personastack.desktop",
+            script: [{
+              executable: "/Applications/PersonaStack.app/Contents/MacOS/PersonaStack",
+              args: ["--personastack-unregister-login"],
+              sudo: false,
+              must_succeed: true,
+            }, {
+              executable: "/Library/Application Support/PersonaStack/LockedControlInstaller",
+              args: ["--remove"],
+              sudo: true,
+              must_succeed: true,
+            }],
+            pkgutil: ["ai.personastack.desktop", "ai.personastack.locked-control"]
+
 end
