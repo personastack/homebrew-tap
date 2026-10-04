@@ -3,6 +3,34 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>PersonaStack 0.6.0</title>
+      <pubDate>Sun, 04 Oct 2026 08:00:53 GMT</pubDate>
+      <sparkle:version>0.6.0</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"># PersonaStack 0.6.0
+
+Release date: 2026-10-04
+
+## Added
+
+- Added Direct Capture, Safari Automation, Safari JavaScript and Clipboard checks to Desktop Control permission setup. macOS and Safari still require your approval where applicable.
+- Added a Refresh button beside the main window's Back and Forward controls.
+
+## Changed
+
+- Command-Q now hides PersonaStack's windows and keeps the menu bar, local runs and remote control running. Choose Quit PersonaStack from the menu bar icon to exit fully.
+
+## Fixed
+
+- Chat windows close immediately with the close button or Command-W, even when chat is unavailable.
+- Fixed Quit and permission restart getting stuck while native cleanup waits to run. Failed local cleanup stays visible and can be retried.
+- Permission setup rechecks newly approved notifications and microphone access. Restart-required rows use a yellow indicator.
+- Full Disk Access setup preserves existing approval and gives clearer instructions for adding the running app. Returning from Settings rechecks access.
+- Desktop Control gives specific recovery steps after failed or uncertain actions.</description>
+      <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.6.0/Downloads/PersonaStack-0.6.0-developerid.dmg" length="12371285" type="application/x-apple-diskimage" sparkle:edSignature="EFPyUDLyQy1/USj+h8RKzLNeNQ6mlXyzsUESEtoGNUtGBNxUCYSLymWpXrWuqnfQVQlP3O3kMXVQfcUKVBm+Dw==" sparkle:installationType="package"></enclosure>
+    </item>
+    <item>
       <title>PersonaStack 0.5.0</title>
       <pubDate>Sat, 03 Oct 2026 09:09:15 GMT</pubDate>
       <sparkle:version>0.5.0</sparkle:version>
@@ -536,6 +564,6 @@ Release date: 2026-09-30
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zifqHkyyue1xmgLcpojw0JuQPb9IoKUCkF5XOTM29TbYDOhi/N6365L9nkmF4Ur/dH1+8A6fkTaEtwc2+5lbBA==
-length: 32677
+edSignature: bTNX2duRJ1lqAxcEW445QVHo5AivCohUqRnotMxbk4QCSOiRFb6Djbsk+ScWRCyhGRcQahggLAmDvO32cyYQBg==
+length: 34513
 -->
