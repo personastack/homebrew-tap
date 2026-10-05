@@ -3,6 +3,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>PersonaStack 0.7.2</title>
+      <pubDate>Mon, 05 Oct 2026 03:53:58 GMT</pubDate>
+      <sparkle:version>0.7.2</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"># PersonaStack 0.7.2
+
+Release date: 2026-10-04
+
+## Fixed
+
+- Quitting PersonaStack no longer leaves its background supervisor registered as the app or prevents reopening it.
+- Desktop Control crash recovery continues working after quitting and reopening PersonaStack.</description>
+      <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.7.2/Downloads/PersonaStack-0.7.2-developerid.dmg" length="15376785" type="application/x-apple-diskimage" sparkle:edSignature="iYpkPhOvzwRp/lRT4E/QKo7uGzmmpdws65oPuIy+FSmvwC0ALc6Qm8nK6zVadge/tlGWxbWlGe1dQ4B8BMVXDw==" sparkle:installationType="package"></enclosure>
+    </item>
+    <item>
       <title>PersonaStack 0.7.1</title>
       <pubDate>Mon, 05 Oct 2026 02:09:40 GMT</pubDate>
       <sparkle:version>0.7.1</sparkle:version>
@@ -602,6 +618,6 @@ Release date: 2026-09-30
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: lQoLmE2dWIPbpF1RR5zkVSjPAiRXG5F7N86zMAq26RMPxTti9CII+dEnJZcDqyeVO/pfKKZJSjHEgicmIy8dCA==
-length: 37211
+edSignature: sgBQEhu1/sQtJU9D/2oOdLqBU0eeY4DtRulXkOelHOMhO5prjz2nt9UtyHDv2Ffq8Q0xeBYAPEAQZJmbrTEzDQ==
+length: 38200
 -->
