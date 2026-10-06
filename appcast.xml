@@ -3,6 +3,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>PersonaStack 0.8.1</title>
+      <pubDate>Tue, 06 Oct 2026 19:04:45 GMT</pubDate>
+      <sparkle:version>0.8.1</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"># PersonaStack 0.8.1
+
+Release date: 2026-10-06
+
+## Fixed
+
+- Check CUA Connection now opens Diagnostics with visible progress and a clear result.
+- Diagnostics shows the last CUA check and a specific failure reason, with a shortcut to CUA setup.
+- Desktop status checks detect unavailable CUA instead of reporting cached readiness. Completed health changes reach PersonaStack without waiting for another heartbeat.
+- Recover PersonaStack's connection after standalone CUA restarts, while preserving session cleanup and paused control.</description>
+      <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.8.1/Downloads/PersonaStack-0.8.1-developerid.dmg" length="10234254" type="application/x-apple-diskimage" sparkle:edSignature="i4xqO9zG20ON1QV3FrjQvd5pvnDebbDONrVd7PNRFfHo5qFSe1NnAbDWfhd4YyIxohoKeE1wIg5TaYQCm70aBQ==" sparkle:installationType="package"></enclosure>
+    </item>
+    <item>
       <title>PersonaStack 0.8.0</title>
       <pubDate>Tue, 06 Oct 2026 10:24:11 GMT</pubDate>
       <sparkle:version>0.8.0</sparkle:version>
@@ -656,6 +674,6 @@ Release date: 2026-09-30
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: bZ/UMRvVHttuUR9xieN6fzKRRgziKksm104p/o1jdCvlKtKNM62cPQMKdPcjt/1rtNf7Q4JqlqXBjN9WZ2RRAQ==
-length: 40437
+edSignature: CrJMJCJDxG+0se6x6LmJ88BmD4hjUqD1ehp1mrKZsXm7Q6vSdyOCgsMSbwLwlzIpnWMSEwwt2pdagWlwOi/JBw==
+length: 41693
 -->
