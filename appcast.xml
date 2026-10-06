@@ -3,6 +3,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>PersonaStack 0.8.3</title>
+      <pubDate>Tue, 06 Oct 2026 23:25:29 GMT</pubDate>
+      <sparkle:version>0.8.3</sparkle:version>
+      <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"># PersonaStack 0.8.3
+
+Release date: 2026-10-06
+
+## Fixed
+
+- Fixed switching to PersonaStack leaving its main window minimized.</description>
+      <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.8.3/Downloads/PersonaStack-0.8.3-developerid.dmg" length="10235497" type="application/x-apple-diskimage" sparkle:edSignature="rNdEYtt6wsaLxDK2aiOFVweFNx9y0/soNWd+4VbMBxZHU0koniOq5j+HRrEXYN9zVqLQxtuW787Xyp7yEsjRDg==" sparkle:installationType="package"></enclosure>
+    </item>
+    <item>
       <title>PersonaStack 0.8.1</title>
       <pubDate>Tue, 06 Oct 2026 19:04:45 GMT</pubDate>
       <sparkle:version>0.8.1</sparkle:version>
@@ -674,6 +689,6 @@ Release date: 2026-09-30
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: CrJMJCJDxG+0se6x6LmJ88BmD4hjUqD1ehp1mrKZsXm7Q6vSdyOCgsMSbwLwlzIpnWMSEwwt2pdagWlwOi/JBw==
-length: 41693
+edSignature: VkwBaUQJ4Ot5yGXjUg52jzvlDR7gomqvxe21+JCrW7cPXCYjpuewMWwtZgr1j3CVAzLU4/EZb3pgxJyQI6ksCQ==
+length: 42542
 -->
