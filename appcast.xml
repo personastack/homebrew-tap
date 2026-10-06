@@ -3,6 +3,44 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>PersonaStack 0.8.0</title>
+      <pubDate>Tue, 06 Oct 2026 10:24:11 GMT</pubDate>
+      <sparkle:version>0.8.0</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"># PersonaStack 0.8.0
+
+Release date: 2026-10-06
+
+## Upgrade notes
+
+- Desktop Control now uses standalone CUA. Open the PersonaStack menu, choose Desktop Control → Set Up CUA, then install CUA or reuse your existing compatible installation.
+- Complete CUA's permission setup when prompted. Permissions previously granted to PersonaStack do not transfer to CUA.
+- PersonaStack's remote file and shell tools and locked-screen helper are no longer available. Desktop Control uses CUA's supported actions and local settings.
+
+## Added
+
+- Install and start standalone CUA from PersonaStack's setup window.
+- Check CUA's connection separately from the PersonaStack cloud connection.
+
+## Changed
+
+- CUA owns its permissions and login service. It stays installed when PersonaStack is removed.
+- Pause, Stop, and Disconnect affect PersonaStack's access without stopping CUA for other clients. PersonaStack must remain running for its cloud agents to connect.
+- Replaced PersonaStack's desktop permission checklist with CUA setup.
+
+## Removed
+
+- Removed PersonaStack's embedded CUA service and native remote file and shell execution.
+- Removed the locked-screen helper from new installations. Upgrades restore its saved system policy before removing the old component. A conflicting policy stops the upgrade for review.
+
+## Fixed
+
+- Keep desktop sign-in sessions refreshed while the app is open and after wake.
+- Keep Stack Stream and persona activity window titles clear of the window buttons when opening or resizing them.</description>
+      <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.8.0/Downloads/PersonaStack-0.8.0-developerid.dmg" length="10214349" type="application/x-apple-diskimage" sparkle:edSignature="AEGA+D6C2mhrSAoUhXioRQW/y7YPjv9J+H5zn3QVImwKlBa5nbU1F9Viz8E4WZIXtTchqM/sfJRHIDXJAll9Dg==" sparkle:installationType="package"></enclosure>
+    </item>
+    <item>
       <title>PersonaStack 0.7.2</title>
       <pubDate>Mon, 05 Oct 2026 03:53:58 GMT</pubDate>
       <sparkle:version>0.7.2</sparkle:version>
@@ -618,6 +656,6 @@ Release date: 2026-09-30
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: sgBQEhu1/sQtJU9D/2oOdLqBU0eeY4DtRulXkOelHOMhO5prjz2nt9UtyHDv2Ffq8Q0xeBYAPEAQZJmbrTEzDQ==
-length: 38200
+edSignature: bZ/UMRvVHttuUR9xieN6fzKRRgziKksm104p/o1jdCvlKtKNM62cPQMKdPcjt/1rtNf7Q4JqlqXBjN9WZ2RRAQ==
+length: 40437
 -->
