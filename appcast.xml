@@ -3,6 +3,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>PersonaStack 0.9.0</title>
+      <pubDate>Wed, 07 Oct 2026 06:36:31 GMT</pubDate>
+      <sparkle:version>0.9.0</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"># PersonaStack 0.9.0
+
+Release date: 2026-10-06
+
+## Added
+
+- Open the exact concern in PersonaStack when you select its notification.
+
+## Changed
+
+- Make CUA setup and recovery more resilient, with clearer guidance for conflicting installations and actions that stay visible while resizing the setup window.
+
+## Fixed
+
+- Resume Desktop Control connection checks after wake, screen wake, session activation, or network recovery.
+- Show which persona controls remote CUA cursor actions and keep its readiness status current.
+- Avoid repeated Keychain access prompts when configuring additional local personas.
+- Verify Codex plugins from their manifests when the CLI omits the installed version.</description>
+      <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.9.0/Downloads/PersonaStack-0.9.0-developerid.dmg" length="10486079" type="application/x-apple-diskimage" sparkle:edSignature="QDI5FI0zbtVLZM8mHdEwI6llCm0FhezZ10rKM1RBffcbJbqAJ2IRsUid1fI9gLz23FeuoqAW59dFtxvMb3MoBw==" sparkle:installationType="package"></enclosure>
+    </item>
+    <item>
       <title>PersonaStack 0.8.3</title>
       <pubDate>Tue, 06 Oct 2026 23:25:29 GMT</pubDate>
       <sparkle:version>0.8.3</sparkle:version>
@@ -689,6 +715,6 @@ Release date: 2026-09-30
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: VkwBaUQJ4Ot5yGXjUg52jzvlDR7gomqvxe21+JCrW7cPXCYjpuewMWwtZgr1j3CVAzLU4/EZb3pgxJyQI6ksCQ==
-length: 42542
+edSignature: h7XlhenxbSWpI8l+7Ryq3BaSmErhS5xaEMQWzmTET+7gg0YA7atNDp9TdrRJ5jrqNY4Wyh9wlRRMS71rE9YsCw==
+length: 43957
 -->
