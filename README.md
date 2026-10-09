@@ -1,17 +1,25 @@
-# PersonaStack Homebrew Tap
+<div align="center">
 
-Install PersonaStack Connector:
+<h1>PersonaStack for macOS</h1>
 
-```sh
-brew install personastack/tap/personastack-connector
-```
+<p>Your PersonaStack workspace in a native Mac app.</p>
 
-Formula updates are published from tagged Connector releases.
+<img src="assets/personastack-macos.png" alt="PersonaStack sign-in screen in the macOS app" width="900">
 
-Install PersonaStack for macOS:
+</div>
+
+## Install
+
+Requires macOS 14 or later.
 
 ```sh
 brew install --cask personastack/tap/personastack
 ```
 
-The desktop release workflow publishes its universal macOS disk image and cask together in a versioned tap tag.
+Open PersonaStack from Applications and sign in. The app is currently unsigned. If macOS blocks the first launch, open **System Settings → Privacy & Security** and choose **Open Anyway**.
+
+## Updates
+
+PersonaStack can check for signed updates from the menu-bar dropdown or the **PersonaStack** menu. Background downloads are optional. A prepared update is installed when you quit the app.
+
+This tap also provides [PersonaStack Connector](Formula/personastack-connector.rb), a separate command-line tool for locally hosted persona runtimes.
