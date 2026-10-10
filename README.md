@@ -16,10 +16,19 @@ Requires macOS 14 or later.
 brew install --cask personastack/tap/personastack
 ```
 
-Open PersonaStack from Applications and sign in. The app is currently unsigned. If macOS blocks the first launch, open **System Settings → Privacy & Security** and choose **Open Anyway**.
+Open PersonaStack from Applications and sign in.
 
 ## Updates
 
-PersonaStack can check for signed updates from the menu-bar dropdown or the **PersonaStack** menu. Background downloads are optional. A prepared update is installed when you quit the app.
+PersonaStack can check for updates from the menu-bar dropdown or the **PersonaStack** menu. Package updates require administrator approval.
+
+To update through Homebrew:
+
+```sh
+brew update
+brew upgrade --cask --greedy personastack/tap/personastack
+```
+
+Every new macOS app release updates this tap's cask version and checksum. The macOS release workflow publishes the same installer bytes to the versioned tap download and GitHub Release. It also updates the signed Sparkle feed.
 
 This tap also provides [PersonaStack Connector](Formula/personastack-connector.rb), a separate command-line tool for locally hosted persona runtimes.
