@@ -3,6 +3,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>PersonaStack 0.11.1</title>
+      <pubDate>Mon, 12 Oct 2026 01:52:40 GMT</pubDate>
+      <sparkle:version>0.11.1</sparkle:version>
+      <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"># PersonaStack 0.11.1
+
+Release date: 2026-10-12
+
+## Fixed
+
+- Fixed Desktop Control observation failures after reconnecting, restarting, or updating the app.
+- Show recovery steps when a Desktop Control session is unavailable.</description>
+      <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.11.1/Downloads/PersonaStack-0.11.1-developerid.dmg" length="25021774" type="application/x-apple-diskimage" sparkle:edSignature="R6X8PzqMxlsftAZnRUJH5wN3HpkevOQnIvHJAscs5mV6rfy8AfOi4MjklSUVNAtiv3DG1+5u7DOCbVK4F66cDg==" sparkle:installationType="package"></enclosure>
+    </item>
+    <item>
       <title>PersonaStack 0.11.0</title>
       <pubDate>Mon, 12 Oct 2026 00:34:03 GMT</pubDate>
       <sparkle:version>0.11.0</sparkle:version>
@@ -782,6 +798,6 @@ Release date: 2026-09-30
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 0kLiZbutS1SlAoXsYmWK0kbX73Y3F7wwt+vWR3NAMaeIrx8dfhEe7mDMyCijErfFZXm34laFfqSpkXPD53MBCg==
-length: 48859
+edSignature: xy2Nhm/HXbxBGKfHP+trZrfIC3vLuwkJIaInpovhmHqVF9RGJL10falAq/lxMFoF4KOX+2+6Bk/3MveAqIhTBg==
+length: 49812
 -->
