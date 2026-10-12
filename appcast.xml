@@ -3,6 +3,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>PersonaStack 0.11.0</title>
+      <pubDate>Mon, 12 Oct 2026 00:34:03 GMT</pubDate>
+      <sparkle:version>0.11.0</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"># PersonaStack 0.11.0
+
+Release date: 2026-10-12
+
+## Upgrade notes
+
+- Desktop Control now includes CLI commands on the selected Mac. Commands use the signed-in account's files, installed tools, and macOS permissions. Review which personas have access to that computer. Keep the Mac awake and the PersonaStack app running.
+- Concern notifications can show a persona's picture, name, and a shortened concern preview. Review notification preview visibility in macOS System Settings if the screen is shared.
+
+## Added
+
+- Run CLI commands through Desktop Control and receive their output and exit status.
+- Use interactive terminal sessions for programs that need a terminal. Read partial output, send input, check status, or cancel the session.
+- Show the persona's picture and name with a shortened concern preview in macOS notifications. Clicking the notification opens its concern in the main app.
+
+## Fixed
+
+- Refresh Desktop Control availability after waking or unlocking the Mac.
+- Recover stalled cloud connections after wake, unlock, or a network change without repeating an action.
+- Finish pending Desktop Control cleanup after a temporary failure before admitting new work.
+- Stop managed CLI jobs when their session is canceled or Desktop Control access is paused or revoked.
+- Keep CLI output pages and previews bounded, including when output closes before the command exits.
+- Preserve joined emoji in concern previews.</description>
+      <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.11.0/Downloads/PersonaStack-0.11.0-developerid.dmg" length="25021793" type="application/x-apple-diskimage" sparkle:edSignature="pWalnQn85P8sxjirrF1U6HWtVR7/T81N1xdkQjcM60LsFI5yY9l9LXadzj6tnoHMMIPjyjM0l0Zx+nekmBWzCw==" sparkle:installationType="package"></enclosure>
+    </item>
+    <item>
       <title>PersonaStack 0.10.2</title>
       <pubDate>Sun, 11 Oct 2026 22:17:39 GMT</pubDate>
       <sparkle:version>0.10.2</sparkle:version>
@@ -751,6 +782,6 @@ Release date: 2026-09-30
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: s3/NHbLK0BOKDuEYQTNFF/nQv3MGnRSzgH3fzuVd+0RzfoMWa4Mc7/ZbRaI2/dbhfM0CaIP7w8IAOoO5j4sWCA==
-length: 46703
+edSignature: 0kLiZbutS1SlAoXsYmWK0kbX73Y3F7wwt+vWR3NAMaeIrx8dfhEe7mDMyCijErfFZXm34laFfqSpkXPD53MBCg==
+length: 48859
 -->
