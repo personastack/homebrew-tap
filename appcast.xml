@@ -3,6 +3,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>PersonaStack 0.11.2</title>
+      <pubDate>Mon, 23 Nov 2026 09:44:02 GMT</pubDate>
+      <sparkle:version>0.11.2</sparkle:version>
+      <sparkle:shortVersionString>0.11.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"># PersonaStack 0.11.2
+
+Release date: 2026-11-23
+
+## Fixed
+
+- Keep **Check for Updates…** clickable in both PersonaStack menus.
+- Show the progress or result of an existing update check or download when you click again.
+- Show **Restart to Update** when an update is ready so you can choose when to restart.
+- Honor cancellation while background agents are preparing for a restart.</description>
+      <enclosure url="https://raw.githubusercontent.com/personastack/homebrew-tap/desktop-v0.11.2/Downloads/PersonaStack-0.11.2-developerid.dmg" length="25058791" type="application/x-apple-diskimage" sparkle:edSignature="0QmASRzsE4XHlmV6ZmwXCUiPpq2A6MprMUFOea8ktEeIQNLvvwC6UXmDV+WNE4o03Ehno3Vep9xJedgg9sw1Bw==" sparkle:installationType="package"></enclosure>
+    </item>
+    <item>
       <title>PersonaStack 0.11.1</title>
       <pubDate>Mon, 12 Oct 2026 01:52:40 GMT</pubDate>
       <sparkle:version>0.11.1</sparkle:version>
@@ -798,6 +816,6 @@ Release date: 2026-09-30
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: xy2Nhm/HXbxBGKfHP+trZrfIC3vLuwkJIaInpovhmHqVF9RGJL10falAq/lxMFoF4KOX+2+6Bk/3MveAqIhTBg==
-length: 49812
+edSignature: Mq0MJRKdCwIRyjlWVgpcjavag6MszFy9n8BPMV98iezpNmNS/aEFpn/Pydq+dVQ6MyGJxGq5o+syCv3APl1DDg==
+length: 50922
 -->
